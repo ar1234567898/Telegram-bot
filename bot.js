@@ -1,5 +1,5 @@
 const { Bot } = require("grammy");
-const bot = new Bot(process.env."7643629116:AAHh8ED9gQSb3YPbmgk1a47Ih5fqf7s4JLs"); // Get token from env variable
+const bot = new Bot(process.env.BOT_TOKEN); // Get token from env variable
 // Make an array of jokes
 
 jokes = [
